@@ -33,7 +33,7 @@ amount = [
 
 layout = [
     [sg.Frame("", layout=line, background_color='#505050')],
-    [sg.Frame("", layout=amount, background_color='#505050', pad=(80, 0))],
+    [sg.Frame("", layout=amount, background_color='#505050')],
     [sg.Button(button_text="Gerar Senha", font='Times 18',
                button_color='#000000 on #FF9900', key='-generate-'),
      sg.Button(button_text="Cancelar", font='Times 18',
